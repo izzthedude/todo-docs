@@ -36,10 +36,11 @@ On top of the Level 1 features, a User can create multiple Todo Lists based on
 Categories and Tags.
 
 1. **Todo Category Operations**  
-   The User must be able to create, view, edit, and delete a Todo Category. A Todo List
-   must be associated with one Category. When a new List is created, or when a Category
-   containing existing Lists is deleted, the List(s) will be automatically associated
-   with a default "No Category" Category, which cannot be deleted.
+   The User must be able to create, view, edit, and delete a Todo Category. A Todo Item
+   must be associated with only one Category, and a Category can be associated with
+   multiple Items. When a new Item is created, or when a Category containing existing
+   Items is deleted, the Item(s) will be automatically associated with a default "No
+   Category" Category, which cannot be deleted.
 
 2. **Filter Lists by Categories**  
    The User must be able to filter their Lists by their selected Category or Categories.
@@ -53,4 +54,16 @@ Categories and Tags.
 
 ## Extra
 
-Extra features are features that are not limited to any levels of complexities.
+Extra features are features that are not limited to any levels of complexities and are
+not "compulsory".
+
+1. **Customisable Todo Status**  
+   The user can create, view, edit, and delete their own custom Todo Status. A Todo Item
+   must be associated with only one Status, and a Status can be associated with multiple
+   Items. An "In Progress" Status and a "Done" Status are compulsory and cannot be
+   deleted. When a new Item is created, it must be associated with the "In Progress"
+   status.
+
+2. **Real-time Updates**  
+   The user can observe updates to the data (Item, Categories, Statuses, etc.) in real
+   time.

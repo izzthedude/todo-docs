@@ -14,7 +14,7 @@ specifications and design of the app that all implementations will try to adhere
 
 ## Description
 
-My Todo app is a personal project involving making a Todo app in multiple
+My Todo app is a personal project  that involves making a Todo app in multiple
 implementations, both backend and frontend, and in various levels of complexity. My main
 motivation for doing something like this is to learn. Learn what, exactly?
 
