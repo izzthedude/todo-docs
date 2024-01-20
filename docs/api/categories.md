@@ -27,31 +27,31 @@ sidebar_position: 2
 
 ## Create a Category
 
-|        |                          |
-| ------ | ------------------------ |
-| Method | POST                     |
-| Route  | `/api/categories/create` |
+|         |                          |
+| ------- | ------------------------ |
+| Method  | POST                     |
+| Route   | `/api/categories/create` |
+| Payload | Object                   |
 
-Payload:
-```json
-{
-   name: str
-}
-```
+**Payload:**
+
+| Property | Type | Notes |
+| -------- | ---- | ----- |
+| name     | str  |       |
 
 ## Update a Category
 
-|        |                            |
-| ------ | -------------------------- |
-| Method | PUT                        |
-| Route  | `/api/categories/{id:int}` |
+|         |                            |
+| ------- | -------------------------- |
+| Method  | PUT                        |
+| Route   | `/api/categories/{id:int}` |
+| Payload | Object                     |
 
-Payload:
-```json
-{
-   name: str
-}
-```
+**Payload:**
+
+| Property | Type | Notes |
+| -------- | ---- | ----- |
+| name     | str  |       |
 
 ## Delete a Category
 

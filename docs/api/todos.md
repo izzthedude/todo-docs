@@ -32,44 +32,44 @@ sidebar_position: 1
 | Method | GET                 |
 | Route  | `/api/todos/search` |
 
-Query Parameters:
-```json
-{
-   q: str
-}
-```
+**Query Parameters:**
+
+| Key | Type |
+| --- | ---- |
+| q   | str  |
 
 ## Create a Todo
 
-|        |                     |
-| ------ | ------------------- |
-| Method | POST                |
-| Route  | `/api/todos/create` |
+|         |                     |
+| ------- | ------------------- |
+| Method  | POST                |
+| Route   | `/api/todos/create` |
+| Payload | Object              |
 
-Payload:
-```json
-{
-   category: int (FK todo_category) | null
-   todo: str
-   completed: bool (optional)
-}
-```
+**Payload:**
+
+| Property  | Type                           | Notes    |
+| --------- | ------------------------------ | -------- |
+| category  | int (FK todo_category) \| null | optional |
+| todo      | str                            |          |
+| completed | bool                           | optional |
 
 ## Update a Todo
 
-|        |                       |
-| ------ | --------------------- |
-| Method | PUT                   |
-| Route  | `/api/todos/{id:int}` |
+|         |                       |
+| ------- | --------------------- |
+| Method  | PUT                   |
+| Route   | `/api/todos/{id:int}` |
+| Payload | Object                |
 
-Payload (any fields):
-```json
-{
-   category: int (FK todo_category) | null
-   todo: str
-   completed: bool
-}
-```
+**Payload** (***At least one** of the following properties*):
+
+| Property  | Type                           | Notes |
+| --------- | ------------------------------ | ----- |
+| category  | int (FK todo_category) \| null |       |
+| todo      | str                            |       |
+| completed | bool                           |       |
+
 
 ## Delete a Todo
 
