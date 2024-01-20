@@ -13,9 +13,7 @@ sidebar_position: 3
 *I'm not entirely sure how to document models properly, so I'll just document this 
 however makes the most sense to me lol.*
 
-## Level 1
-
-### Todo Category
+## Todo Category
 
 Name: **todo_category**
 
@@ -24,7 +22,7 @@ Name: **todo_category**
 | id    | int         | unique, increment |
 | name  | str(1 - 32) | unique            |
 
-### Todo Item
+## Todo Item
 
 Name: **todo_item**
 
