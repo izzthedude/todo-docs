@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktodo_docs=self.webpackChunktodo_docs||[]).push([[836],{7417:t=>{t.exports=JSON.parse('{"label":"Introduction","permalink":"/docs/tags/introduction","allTagsPath":"/docs/tags","count":1,"items":[{"id":"introduction","title":"Introduction","description":"An introduction to the Todo app","permalink":"/docs/introduction"}],"unlisted":false}')}}]);
