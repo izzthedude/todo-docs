@@ -1,15 +1,15 @@
 ---
-id: todo_categories
-title: Todo Categories
+id: category
+title: Category
 description: The API for Todo Categories
 tags:
   - Backend
   - API
-  - Todo Categories
-sidebar_position: 2
+  - Category
+sidebar_position: 1
 ---
 
-# Todo Categories
+# Category
 
 ## Get all Categories
 
@@ -27,11 +27,11 @@ sidebar_position: 2
 
 ## Create a Category
 
-|         |                          |
-| ------- | ------------------------ |
-| Method  | POST                     |
-| Route   | `/api/categories/create` |
-| Payload | Object                   |
+|         |                   |
+| ------- | ----------------- |
+| Method  | POST              |
+| Route   | `/api/categories` |
+| Payload | Object            |
 
 **Payload:**
 

@@ -17,20 +17,20 @@ however makes the most sense to me lol.*
 
 Name: **todo_category**
 
-| Field | Data Type   | Notes             |
-| ----- | ----------- | ----------------- |
-| id    | int         | unique, increment |
-| name  | str(1 - 32) | unique            |
+| Field | Data Type   | Notes  |
+| ----- | ----------- | ------ |
+| id    | int         | PK     |
+| name  | str(1 - 32) | unique |
 
 ## Todo Item
 
 Name: **todo_item**
 
-| Field     | Data Type                | Notes                                         |
-| --------- | ------------------------ | --------------------------------------------- |
-| id        | int                      | unique                                        |
-| created   | datetime                 | default=now()                                 |
-| modified  | datetime                 | default=(same as `created`), now() on updates |
-| category  | FK todo_category \| null | default=null                                  |
-| todo      | str(1 - 128)             |                                               |
-| completed | bool                     | default=false                                 |
+| Field     | Data Type        | Notes                                         |
+| --------- | ---------------- | --------------------------------------------- |
+| id        | int              | PK                                            |
+| created   | datetime         | default=now()                                 |
+| modified  | datetime         | default=(same as `created`), now() on updates |
+| category  | FK todo_category | default=(FK to "None" Category)               |
+| todo      | str(1 - 128)     |                                               |
+| completed | bool             | default=false                                 |

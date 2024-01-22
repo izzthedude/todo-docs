@@ -24,8 +24,8 @@ sidebar_position: 2
    The User must be able to create, view, edit, and delete a Todo Category. A Todo Item
    must be associated with only one Category, and a Category can be associated with
    multiple Items. When a new Item is created, or when a Category containing existing
-   Items is deleted, the Item(s) will be automatically associated with a default "No
-   Category" Category, which cannot be deleted.
+   Items is deleted, the Item(s) will be automatically associated with a default "None"
+   Category, which cannot be deleted.
 
 ## **Filter by Categories**  
    The User must be able to filter Items by the selected Category or Categories.
